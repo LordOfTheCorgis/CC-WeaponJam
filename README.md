@@ -70,7 +70,6 @@ In the `config.lua` file, you can adjust the following settings:
 ## Requirements
 
 - **FiveM server**
-- **Lua environment** for FiveM scripting
 
 ---
 
