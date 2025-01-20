@@ -1,3 +1,5 @@
+# This fork includes ox_lib notification integration
+
 # CC-WeaponJam - FiveM Weapon Jam Script
 
 **CC-WeaponJam** is a script for FiveM that introduces a weapon jamming mechanic. Weapons can randomly jam during use, and players must fix them before they can fire again. This script is open-source and available for anyone to use or modify.
