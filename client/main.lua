@@ -50,9 +50,14 @@ end
 
 RegisterNetEvent("weaponJam:notify")
 AddEventHandler("weaponJam:notify", function(message)
-    SetNotificationTextEntry("STRING")
-    AddTextComponentString(message)
-    DrawNotification(false, true)
+    lib.notify({
+        title = "Weapon Jam",
+        description = message,
+        type = "error",
+        icon = "fa-solid fa-gun",
+        duration = Config.FixTime,
+    })
+
 end)
 
 Citizen.CreateThread(function()
